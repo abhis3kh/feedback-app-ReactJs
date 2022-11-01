@@ -9,7 +9,7 @@ import AboutPageIcon from './components/AboutPageIcon';
 import { FeedbackProvider } from './context/FeedbackContext';
 const App = () => {
   return (
-    // for context API usage
+    // for context API usage we have to call the provider
     <FeedbackProvider>
       {/* for having differnt routes in our application.*/}
       <Router>
